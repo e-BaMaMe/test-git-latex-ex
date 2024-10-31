@@ -1,6 +1,10 @@
 name: LaTeX Build
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+      - release/*
 
 jobs:
   build:
